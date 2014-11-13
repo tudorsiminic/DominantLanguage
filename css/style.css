@@ -1,0 +1,39 @@
+.centerPanel {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -50px;
+    width: 500px;
+    height: 100px;
+}
+
+.labelForm {
+    font-size: 20px;
+}
+
+.myForm {
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+
+.labelLanguage {
+    font-size: 30px;
+    text-align: center;
+}
+
+.labelTitle {
+    font-size: 40px;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+
+.background {
+    background-color: #E8E8E8;
+}
+
+.blue {
+    color: #4169e1;
+}

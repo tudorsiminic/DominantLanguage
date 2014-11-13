@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <script src="js/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body ng-controller="MyController as myCtrl" class="background">
+
+<div class="centerPanel">
+
+    <div class="labelTitle">
+        EXERCISE 1:
+    </div>
+
+    <div class="myForm">
+        <form ng-submit="findLanguage()">
+            <label class="labelForm">GitHub username:
+                <input ng-model="username" type="text" name="username" required>
+            </label>
+            <input type="submit" name="submit">
+        </form>
+
+    </div>
+
+    <div class="labelLanguage blue">
+        {{predominant_language}}
+    </div>
+
+</div>
+
+</body>
+</html>
